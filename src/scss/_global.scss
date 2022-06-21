@@ -1,0 +1,10 @@
+@import 'vars';
+html {
+    width: 100%;
+}
+
+a {
+    &:hover {
+        color: $primary;
+    }
+}

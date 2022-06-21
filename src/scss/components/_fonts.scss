@@ -1,0 +1,5 @@
+@import '../_mixins';
+@include font-face('Uni Neue', 'UniNeueRegular', 400);
+@include font-face('Uni Neue', 'UniNeueRegular-Italic', 400, Italic);
+@include font-face('Uni Neue', 'UniNeueBold', 700);
+@include font-face('Uni Neue', 'UniNeueBlack', 800);

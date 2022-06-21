@@ -1,0 +1,52 @@
+@import "../vars";
+.display2 {
+    padding-bottom: 28px;
+    position: relative;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 134%;
+    letter-spacing: 0.03em;
+    span {
+        font-weight: 800;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        width: 60px;
+        height: 3px;
+        background-color: $warning;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+p {
+    font-size: 18px;
+    line-height: 167%;
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .display2 {
+        font-size: 48px;
+        padding-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .display2 {
+        font-size: 30px;
+        line-height: 41px;
+        &::before {
+            width: 40px;
+            height: 2px;
+        }
+    }
+    p {
+        font-size: 15px;
+        line-height: 173%;
+    }
+}

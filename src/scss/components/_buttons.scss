@@ -1,0 +1,56 @@
+@import "../vars";
+.mbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-out .225s;
+    padding: 0;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.btn-outline {
+    border: 1px solid #C6D0E0;
+    border-radius: 5px;
+    color: #5586DA;
+    font-weight: 700;
+    font-size: 16px;
+    height: 40px;
+    &:hover {
+        border-color: $primaryHover;
+        background-color: $primaryHover;
+        color: #fff;
+    }
+    &:hover {
+        border-color: $primaryActive;
+        background-color: $primaryActive;
+        color: #fff;
+    }
+}
+
+.btn-blue {
+    border-radius: 5px;
+    background-color: $primary;
+    color: #fff;
+    &:hover {
+        border-color: $primaryHover;
+        background-color: $primaryHover;
+        color: #fff;
+    }
+    &:hover {
+        border-color: $primaryActive;
+        background-color: $primaryActive;
+        color: #fff;
+    }
+}
+
+.link {
+    color: $primary;
+    &:hover {
+        color: $primaryHover;
+    }
+    &:active {
+        color: $primaryActive2;
+    }
+}
