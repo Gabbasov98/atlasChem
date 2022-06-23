@@ -11,7 +11,7 @@
     &--fix {
         background: rgba(255, 255, 255, 0.95);
         box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
-        padding: 18px 0;
+        padding: 0;
         .header {
             &__logo {
                 width: 183.12px;
@@ -24,6 +24,7 @@
                 color: $black;
                 &__link {
                     color: $black;
+                    padding: 27px 0;
                     &:hover {
                         color: $black;
                         border-color: $black;
