@@ -26,6 +26,9 @@
                     color: $black;
                     &:hover {
                         color: $black;
+                    }
+                    &:active {
+                        color: $black;
                         border-color: $black;
                     }
                 }
@@ -62,6 +65,9 @@
             padding: 5px 0;
             border-top: 2px solid transparent;
             &:hover {
+                color: #fff;
+            }
+            &:active {
                 border-color: #fff;
                 color: #fff;
             }
