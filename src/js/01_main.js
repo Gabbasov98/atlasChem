@@ -17,6 +17,12 @@ $(".header__burger").click(function() {
     $("body").toggleClass("fixed-body")
 })
 
+$(".nav__link").click(function() {
+    $(".header__burger").removeClass("header__burger--active")
+    $(".header").removeClass("header--active")
+    $("body").removeClass("fixed-body")
+})
+
 
 mainSlider()
 
