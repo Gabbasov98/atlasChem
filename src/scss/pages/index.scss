@@ -74,7 +74,8 @@
         }
         &:hover {
             &::before {
-                background: linear-gradient(360deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+                background: rgba(0, 0, 0, 0.5);
+                // background: linear-gradient(360deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
                 opacity: 0.5;
             }
         }
@@ -108,7 +109,7 @@
         z-index: 1;
         background-image: url(../img/about-bg.png);
         background-repeat: no-repeat;
-        top: 137px;
+        bottom: -26px;
         right: 0;
         height: calc(100% - 137px);
         width: 775px;

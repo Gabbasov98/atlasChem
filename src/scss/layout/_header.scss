@@ -26,10 +26,10 @@
                     color: $black;
                     &:hover {
                         color: $black;
+                        border-color: $black;
                     }
                     &:active {
                         color: $black;
-                        border-color: $black;
                     }
                 }
             }
@@ -62,13 +62,13 @@
         font-weight: 800;
         font-size: 18px;
         @media screen and (min-width: 992px) {
-            padding: 5px 0;
-            border-top: 2px solid transparent;
+            padding: 17px 0;
+            border-bottom: 2px solid transparent;
             &:hover {
                 color: #fff;
+                border-color: #fff;
             }
             &:active {
-                border-color: #fff;
                 color: #fff;
             }
         }
