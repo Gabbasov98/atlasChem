@@ -57,7 +57,11 @@ function setCountryOnMap(mapArea, country) {
         'top': `${countryPosition.top - 30}px`,
         'left': `${countryPosition.left}px`
     })
-
+    if ($(country).hasClass("map__country--swiss")) {
+        $(country).css({
+            'top': `${countryPosition.top - 40}px`,
+        })
+    }
     if ($(country).hasClass("map__country--india")) {
         $(country).css({
             'top': `${countryPosition.top + 80}px`,
